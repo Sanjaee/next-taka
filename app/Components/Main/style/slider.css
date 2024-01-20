@@ -1,0 +1,56 @@
+.slider {
+  background: rgb(150, 150, 143);
+  background: linear-gradient(
+    90deg,
+    rgba(150, 150, 143, 1) 0%,
+    rgba(97, 97, 92, 1) 45%,
+    rgba(18, 18, 18, 1) 100%
+  );
+}
+.slider_header {
+  max-width: 1280px;
+}
+.slider_img {
+  width: 847px;
+  height: 310.625px;
+  border-radius: 20px;
+}
+.slider_container {
+  display: flex;
+  justify-content: center;
+}
+.arrowkiri {
+  margin-bottom: 40px;
+  margin-right: 10px;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 0; /* Sesuaikan margin kiri sesuai kebutuhan */
+}
+
+.arrow_img {
+  position: absolute;
+  bottom: 0;
+}
+
+.arrow-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(39, 36, 45);
+  border: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+@media screen and (max-width: 768px) {
+  .slider_img {
+    width: 343px;
+    height: 128.625px;
+  }
+  .arrow-button {
+    display: none;
+  }
+}
